@@ -31,7 +31,7 @@ namespace game {
 	actions that will be needed that will be needed by game
 
 	*/
-
+	// sfml: sf::RectangleShape.GetGlobalBounds().intersects(sf::RectangleShape.GetGlobalBounds() == check collision
 	bool checkCollision(const sf::RectangleShape&, const sf::RectangleShape& );
 
 	/* Returns a rectangle at the specified coordinates */
